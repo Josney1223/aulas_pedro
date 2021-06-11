@@ -1,8 +1,8 @@
 # aulas_pedro
-O material da aula
--> Classes em Java
--> Classes em C?
--> Estruturas em C
--> Estruturas em Java
--> Ponteiros
--> Lista Ligada
+O material da aula\n
+-> Classes em Java\n
+-> Classes em C?\n
+-> Estruturas em C\n
+-> Estruturas em Java\n
+-> Ponteiros\n
+-> Lista Ligada\n
