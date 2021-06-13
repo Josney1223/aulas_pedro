@@ -1,24 +1,17 @@
-import java.util.ArrayList;
-import java.util.List;
-
-import Jogos.Jogo;
+import No.No;
 
 public class Programa{
-    List<Jogo> lista;
 
-    public static void main(String args[]){
-        //ArrayList<Jogo> lista = new ArrayList<Jogo>();
-        Jogo cod = new Jogo("Call of Duty", 300);
-        Jogo skyrim = new Jogo("The elder scrolls V: Skyrim", 120);
-        //lista.add(jogo1);
-        System.out.print(skyrim.nome +","+ skyrim.valor +","+ skyrim.tempoDeJogo);
-        skyrim.setTempoDeJogo(10);
+    public static void main(String args[]){        
+        No head = new No(null, "1");  
+        No n1 = new No(head, "2");
+        No n2 = new No(head, "3");
+        No n3 = new No(head, "4");
+        
+        head.setProx(n1, head);        
+        head.setProx(n2, head);
+        head.setProx(n3, head);
+        head.printThis("3", head);  
+        head.printThis("3", head);                     
     }
-    
-    public static void printList(List<Jogo> l){
-        for(int i =0; i< l.size(); i++){
-            System.out.print(l.get(i).nome);
-        }
-    }
-
 }
